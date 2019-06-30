@@ -11,12 +11,17 @@ import SwiftUI
 struct HomePageView<Page: View> : View {
     var viewControllers: [UIHostingController<Page>]
 
+    @State var currentPage = 0
+
     init(_ views: [Page]) {
         self.viewControllers = views.map { UIHostingController(rootView: $0) }
     }
 
     var body: some View {
-        PageViewController(controllers: viewControllers)
+        VStack {
+            Text("Current Page: \(currentPage)").frame(height: 150)
+            PageViewController(controllers: viewControllers, currentPage: $currentPage)
+        }
     }
 }
 

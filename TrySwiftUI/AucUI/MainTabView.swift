@@ -12,7 +12,7 @@ struct MainTabView : View {
     @State private var selection = 0
     var body: some View {
         TabbedView(selection: $selection){
-            ItemGridView()
+            HomePageView([ItemGridView(), ItemGridView()])
                 .font(.title)
                 .tabItemLabel(Text("first"))
                 .tag(0)

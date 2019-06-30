@@ -41,7 +41,6 @@ struct ItemGridView : View {
                    showsHorizontalIndicator: false,
                    showsVerticalIndicator: false
         ) {
-            Text("バナー").frame(height: 150)
             ForEach(0..<50) { _ in
                 SampleView()
                 Spacer(minLength: 8)
