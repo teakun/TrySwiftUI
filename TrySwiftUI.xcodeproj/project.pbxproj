@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD8DAD7722C3D4FE00C4B616 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8DAD7622C3D4FE00C4B616 /* TabView.swift */; };
+		CD8DAD7922C73C4D00C4B616 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8DAD7822C73C4D00C4B616 /* MainTabView.swift */; };
+		CD8DAD7B22C882DA00C4B616 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8DAD7A22C882DA00C4B616 /* PageViewController.swift */; };
+		CD8DAD7D22C8843800C4B616 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8DAD7C22C8843800C4B616 /* HomePageView.swift */; };
 		CDC4CE8422BE79B70095DA18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE8322BE79B70095DA18 /* AppDelegate.swift */; };
 		CDC4CE8622BE79B70095DA18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE8522BE79B70095DA18 /* SceneDelegate.swift */; };
 		CDC4CE8822BE79B70095DA18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE8722BE79B70095DA18 /* ContentView.swift */; };
@@ -15,6 +19,10 @@
 		CDC4CE9022BE79B80095DA18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC4CE8E22BE79B80095DA18 /* LaunchScreen.storyboard */; };
 		CDC4CE9B22BE79B80095DA18 /* TrySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE9A22BE79B80095DA18 /* TrySwiftUITests.swift */; };
 		CDC4CEA622BE79B90095DA18 /* TrySwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CEA522BE79B90095DA18 /* TrySwiftUIUITests.swift */; };
+		CDC4CEB422C37A510095DA18 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CEB322C37A510095DA18 /* CircleImage.swift */; };
+		CDC4CEB622C380C50095DA18 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CEB522C380C50095DA18 /* MapView.swift */; };
+		CDFFDA1F22C39F7C00C24890 /* ItemGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFDA1E22C39F7C00C24890 /* ItemGridView.swift */; };
+		CDFFDA2122C39FAD00C24890 /* HomeListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFDA2022C39FAD00C24890 /* HomeListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD8DAD7622C3D4FE00C4B616 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		CD8DAD7822C73C4D00C4B616 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		CD8DAD7A22C882DA00C4B616 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		CD8DAD7C22C8843800C4B616 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		CDC4CE8022BE79B70095DA18 /* TrySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC4CE8322BE79B70095DA18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDC4CE8522BE79B70095DA18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,10 @@
 		CDC4CEA122BE79B80095DA18 /* TrySwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrySwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC4CEA522BE79B90095DA18 /* TrySwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrySwiftUIUITests.swift; sourceTree = "<group>"; };
 		CDC4CEA722BE79B90095DA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC4CEB322C37A510095DA18 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		CDC4CEB522C380C50095DA18 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CDFFDA1E22C39F7C00C24890 /* ItemGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemGridView.swift; sourceTree = "<group>"; };
+		CDFFDA2022C39FAD00C24890 /* HomeListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +115,10 @@
 		CDC4CE8222BE79B70095DA18 /* TrySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				CDFFDA1D22C39F4D00C24890 /* AucUI */,
+				CDFFDA1C22C39DB300C24890 /* Tutorial */,
 				CDC4CE8322BE79B70095DA18 /* AppDelegate.swift */,
 				CDC4CE8522BE79B70095DA18 /* SceneDelegate.swift */,
-				CDC4CE8722BE79B70095DA18 /* ContentView.swift */,
 				CDC4CE8922BE79B80095DA18 /* Assets.xcassets */,
 				CDC4CE8E22BE79B80095DA18 /* LaunchScreen.storyboard */,
 				CDC4CE9122BE79B80095DA18 /* Info.plist */,
@@ -134,6 +151,29 @@
 				CDC4CEA722BE79B90095DA18 /* Info.plist */,
 			);
 			path = TrySwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		CDFFDA1C22C39DB300C24890 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				CDC4CE8722BE79B70095DA18 /* ContentView.swift */,
+				CDC4CEB322C37A510095DA18 /* CircleImage.swift */,
+				CDC4CEB522C380C50095DA18 /* MapView.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		CDFFDA1D22C39F4D00C24890 /* AucUI */ = {
+			isa = PBXGroup;
+			children = (
+				CD8DAD7822C73C4D00C4B616 /* MainTabView.swift */,
+				CD8DAD7622C3D4FE00C4B616 /* TabView.swift */,
+				CD8DAD7A22C882DA00C4B616 /* PageViewController.swift */,
+				CD8DAD7C22C8843800C4B616 /* HomePageView.swift */,
+				CDFFDA1E22C39F7C00C24890 /* ItemGridView.swift */,
+				CDFFDA2022C39FAD00C24890 /* HomeListRow.swift */,
+			);
+			path = AucUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +308,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDC4CE8422BE79B70095DA18 /* AppDelegate.swift in Sources */,
+				CDC4CEB422C37A510095DA18 /* CircleImage.swift in Sources */,
+				CD8DAD7922C73C4D00C4B616 /* MainTabView.swift in Sources */,
+				CD8DAD7722C3D4FE00C4B616 /* TabView.swift in Sources */,
+				CDC4CEB622C380C50095DA18 /* MapView.swift in Sources */,
+				CDFFDA1F22C39F7C00C24890 /* ItemGridView.swift in Sources */,
+				CDFFDA2122C39FAD00C24890 /* HomeListRow.swift in Sources */,
 				CDC4CE8622BE79B70095DA18 /* SceneDelegate.swift in Sources */,
+				CD8DAD7B22C882DA00C4B616 /* PageViewController.swift in Sources */,
+				CD8DAD7D22C8843800C4B616 /* HomePageView.swift in Sources */,
 				CDC4CE8822BE79B70095DA18 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

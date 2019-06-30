@@ -1,23 +1,23 @@
 //
-//  ContentView.swift
+//  TabView.swift
 //  TrySwiftUI
 //
-//  Created by Yuki Takeda on 2019/06/22.
+//  Created by Yuki Takeda on 2019/06/27.
 //  Copyright © 2019 TAKEDA Yuki. All rights reserved.
 //
 
 import SwiftUI
 
-struct ContentView : View {
+struct TabView : View {
     var body: some View {
-        Text("Hello World")
+        Text("aa")
     }
 }
 
 #if DEBUG
-struct ContentView_Previews : PreviewProvider {
+struct TabView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TabView()
     }
 }
 #endif
